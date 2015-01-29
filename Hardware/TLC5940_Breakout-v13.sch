@@ -143,184 +143,6 @@
 <libraries>
 <library name="SparkFun">
 <packages>
-<package name="DIL28-3">
-<wire x1="-17.78" y1="-1.27" x2="-17.78" y2="-3.048" width="0.2032" layer="21"/>
-<wire x1="-17.78" y1="-1.27" x2="-17.78" y2="1.27" width="0.2032" layer="21" curve="180"/>
-<wire x1="17.78" y1="-3.048" x2="17.78" y2="3.048" width="0.2032" layer="21"/>
-<wire x1="-17.78" y1="3.048" x2="-17.78" y2="1.27" width="0.2032" layer="21"/>
-<wire x1="-17.78" y1="3.048" x2="-17.526" y2="3.048" width="0.2032" layer="21"/>
-<wire x1="-17.78" y1="-3.048" x2="-17.526" y2="-3.048" width="0.2032" layer="21"/>
-<wire x1="17.78" y1="-3.048" x2="17.526" y2="-3.048" width="0.2032" layer="21"/>
-<wire x1="17.78" y1="3.048" x2="17.526" y2="3.048" width="0.2032" layer="21"/>
-<pad name="1" x="-16.51" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="2" x="-13.97" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="3" x="-11.43" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="4" x="-8.89" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="5" x="-6.35" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="6" x="-3.81" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="7" x="-1.27" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="8" x="1.27" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="9" x="3.81" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="10" x="6.35" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="11" x="8.89" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="12" x="11.43" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="13" x="13.97" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="14" x="16.51" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="15" x="16.51" y="3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="16" x="13.97" y="3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="17" x="11.43" y="3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="18" x="8.89" y="3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="19" x="6.35" y="3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="20" x="3.81" y="3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="21" x="1.27" y="3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="22" x="-1.27" y="3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="23" x="-3.81" y="3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="24" x="-6.35" y="3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="25" x="-8.89" y="3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="26" x="-11.43" y="3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="27" x="-13.97" y="3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="28" x="-16.51" y="3.81" drill="0.8128" shape="long" rot="R90"/>
-<text x="-15.24" y="0" size="0.6096" layer="25" ratio="10">&gt;NAME</text>
-<text x="-15.24" y="-1.27" size="0.6096" layer="27" ratio="10">&gt;VALUE</text>
-</package>
-<package name="QFN-32">
-<description>&lt;h3&gt;QFN 32-Pin package w/ Thermal Pad&lt;/h3&gt;
-&lt;b&gt;***Unproven***&lt;/b&gt;
-&lt;br&gt;&lt;br&gt;
-&lt;B&gt;Applicable Parts:&lt;/b&gt;
-&lt;ul&gt;&lt;li&gt;TLC5940&lt;/ul&gt;</description>
-<wire x1="-2.5" y1="-2.5" x2="2.5" y2="-2.5" width="0.127" layer="51"/>
-<wire x1="2.5" y1="-2.5" x2="2.5" y2="2.5" width="0.127" layer="51"/>
-<wire x1="2.5" y1="2.5" x2="-2.5" y2="2.5" width="0.127" layer="51"/>
-<wire x1="-2.5" y1="2.5" x2="-2.5" y2="-2.5" width="0.127" layer="51"/>
-<wire x1="-2.5" y1="2.1" x2="-2.5" y2="2.5" width="0.127" layer="21"/>
-<wire x1="-2.5" y1="2.5" x2="-2.1" y2="2.5" width="0.127" layer="21"/>
-<wire x1="2.1" y1="2.5" x2="2.5" y2="2.5" width="0.127" layer="21"/>
-<wire x1="2.5" y1="2.5" x2="2.5" y2="2.1" width="0.127" layer="21"/>
-<wire x1="2.5" y1="-2.1" x2="2.5" y2="-2.5" width="0.127" layer="21"/>
-<wire x1="2.5" y1="-2.5" x2="2.1" y2="-2.5" width="0.127" layer="21"/>
-<wire x1="-2.5" y1="-2.1" x2="-2.1" y2="-2.5" width="0.127" layer="21"/>
-<circle x="-1.8" y="-1.8" radius="0.1" width="0.127" layer="21"/>
-<smd name="1" x="-1.75" y="-2.5" dx="0.8" dy="0.2846" layer="1" rot="R90"/>
-<smd name="2" x="-1.25" y="-2.5" dx="0.8" dy="0.2846" layer="1" rot="R90"/>
-<smd name="3" x="-0.75" y="-2.5" dx="0.8" dy="0.2846" layer="1" rot="R90"/>
-<smd name="4" x="-0.25" y="-2.5" dx="0.8" dy="0.2846" layer="1" rot="R90"/>
-<smd name="5" x="0.25" y="-2.5" dx="0.8" dy="0.2846" layer="1" rot="R90"/>
-<smd name="6" x="0.75" y="-2.5" dx="0.8" dy="0.2846" layer="1" rot="R90"/>
-<smd name="7" x="1.25" y="-2.5" dx="0.8" dy="0.2846" layer="1" rot="R90"/>
-<smd name="8" x="1.75" y="-2.5" dx="0.8" dy="0.2846" layer="1" rot="R90"/>
-<smd name="9" x="2.5" y="-1.75" dx="0.8" dy="0.2846" layer="1" rot="R180"/>
-<smd name="10" x="2.5" y="-1.25" dx="0.8" dy="0.2846" layer="1" rot="R180"/>
-<smd name="11" x="2.5" y="-0.75" dx="0.8" dy="0.2846" layer="1" rot="R180"/>
-<smd name="12" x="2.5" y="-0.25" dx="0.8" dy="0.2846" layer="1" rot="R180"/>
-<smd name="13" x="2.5" y="0.25" dx="0.8" dy="0.2846" layer="1" rot="R180"/>
-<smd name="14" x="2.5" y="0.75" dx="0.8" dy="0.2846" layer="1" rot="R180"/>
-<smd name="15" x="2.5" y="1.25" dx="0.8" dy="0.2846" layer="1" rot="R180"/>
-<smd name="16" x="2.5" y="1.75" dx="0.8" dy="0.2846" layer="1" rot="R180"/>
-<smd name="17" x="1.75" y="2.5" dx="0.8" dy="0.2846" layer="1" rot="R270"/>
-<smd name="18" x="1.25" y="2.5" dx="0.8" dy="0.2846" layer="1" rot="R270"/>
-<smd name="19" x="0.75" y="2.5" dx="0.8" dy="0.2846" layer="1" rot="R270"/>
-<smd name="20" x="0.25" y="2.5" dx="0.8" dy="0.2846" layer="1" rot="R270"/>
-<smd name="21" x="-0.25" y="2.5" dx="0.8" dy="0.2846" layer="1" rot="R270"/>
-<smd name="22" x="-0.75" y="2.5" dx="0.8" dy="0.2846" layer="1" rot="R270"/>
-<smd name="23" x="-1.25" y="2.5" dx="0.8" dy="0.2846" layer="1" rot="R270"/>
-<smd name="24" x="-1.75" y="2.5" dx="0.8" dy="0.2846" layer="1" rot="R270"/>
-<smd name="25" x="-2.5" y="1.75" dx="0.8" dy="0.2846" layer="1"/>
-<smd name="26" x="-2.5" y="1.25" dx="0.8" dy="0.2846" layer="1"/>
-<smd name="27" x="-2.5" y="0.75" dx="0.8" dy="0.2846" layer="1"/>
-<smd name="28" x="-2.5" y="0.25" dx="0.8" dy="0.2846" layer="1"/>
-<smd name="29" x="-2.5" y="-0.25" dx="0.8" dy="0.2846" layer="1"/>
-<smd name="30" x="-2.5" y="-0.75" dx="0.8" dy="0.2846" layer="1"/>
-<smd name="31" x="-2.5" y="-1.25" dx="0.8" dy="0.2846" layer="1"/>
-<smd name="32" x="-2.5" y="-1.75" dx="0.8" dy="0.2846" layer="1"/>
-<smd name="EP" x="0" y="0" dx="3.15" dy="3.15" layer="1" cream="no"/>
-<text x="-1.27" y="1.524" size="0.4318" layer="25">&gt;Name</text>
-<text x="-1.27" y="-1.905" size="0.4318" layer="27">&gt;Value</text>
-<rectangle x1="-2.5" y1="0.13" x2="-2.1" y2="0.37" layer="51"/>
-<rectangle x1="-2.5" y1="-0.37" x2="-2.1" y2="-0.13" layer="51"/>
-<rectangle x1="-2.5" y1="-0.87" x2="-2.1" y2="-0.63" layer="51"/>
-<rectangle x1="-2.5" y1="-1.37" x2="-2.1" y2="-1.13" layer="51"/>
-<rectangle x1="-2.5" y1="-1.87" x2="-2.1" y2="-1.63" layer="51"/>
-<rectangle x1="-2.5" y1="0.63" x2="-2.1" y2="0.87" layer="51"/>
-<rectangle x1="-2.5" y1="1.13" x2="-2.1" y2="1.37" layer="51"/>
-<rectangle x1="-2.5" y1="1.63" x2="-2.1" y2="1.87" layer="51"/>
-<rectangle x1="0.05" y1="2.18" x2="0.45" y2="2.42" layer="51" rot="R270"/>
-<rectangle x1="-0.45" y1="2.18" x2="-0.05" y2="2.42" layer="51" rot="R270"/>
-<rectangle x1="-0.95" y1="2.18" x2="-0.55" y2="2.42" layer="51" rot="R270"/>
-<rectangle x1="-1.45" y1="2.18" x2="-1.05" y2="2.42" layer="51" rot="R270"/>
-<rectangle x1="-1.95" y1="2.18" x2="-1.55" y2="2.42" layer="51" rot="R270"/>
-<rectangle x1="0.55" y1="2.18" x2="0.95" y2="2.42" layer="51" rot="R270"/>
-<rectangle x1="1.05" y1="2.18" x2="1.45" y2="2.42" layer="51" rot="R270"/>
-<rectangle x1="1.55" y1="2.18" x2="1.95" y2="2.42" layer="51" rot="R270"/>
-<rectangle x1="-0.45" y1="-2.42" x2="-0.05" y2="-2.18" layer="51" rot="R90"/>
-<rectangle x1="0.05" y1="-2.42" x2="0.45" y2="-2.18" layer="51" rot="R90"/>
-<rectangle x1="0.55" y1="-2.42" x2="0.95" y2="-2.18" layer="51" rot="R90"/>
-<rectangle x1="1.05" y1="-2.42" x2="1.45" y2="-2.18" layer="51" rot="R90"/>
-<rectangle x1="1.55" y1="-2.42" x2="1.95" y2="-2.18" layer="51" rot="R90"/>
-<rectangle x1="-0.95" y1="-2.42" x2="-0.55" y2="-2.18" layer="51" rot="R90"/>
-<rectangle x1="-1.45" y1="-2.42" x2="-1.05" y2="-2.18" layer="51" rot="R90"/>
-<rectangle x1="-1.95" y1="-2.42" x2="-1.55" y2="-2.18" layer="51" rot="R90"/>
-<rectangle x1="2.1" y1="-0.37" x2="2.5" y2="-0.13" layer="51" rot="R180"/>
-<rectangle x1="2.1" y1="0.13" x2="2.5" y2="0.37" layer="51" rot="R180"/>
-<rectangle x1="2.1" y1="0.63" x2="2.5" y2="0.87" layer="51" rot="R180"/>
-<rectangle x1="2.1" y1="1.13" x2="2.5" y2="1.37" layer="51" rot="R180"/>
-<rectangle x1="2.1" y1="1.63" x2="2.5" y2="1.87" layer="51" rot="R180"/>
-<rectangle x1="2.1" y1="-0.87" x2="2.5" y2="-0.63" layer="51" rot="R180"/>
-<rectangle x1="2.1" y1="-1.37" x2="2.5" y2="-1.13" layer="51" rot="R180"/>
-<rectangle x1="2.1" y1="-1.87" x2="2.5" y2="-1.63" layer="51" rot="R180"/>
-<rectangle x1="-1.45" y1="0.15" x2="-0.15" y2="1.45" layer="31"/>
-<rectangle x1="0.15" y1="0.15" x2="1.45" y2="1.45" layer="31" rot="R270"/>
-<rectangle x1="-1.45" y1="-1.45" x2="-0.15" y2="-0.15" layer="31" rot="R90"/>
-<rectangle x1="0.15" y1="-1.45" x2="1.45" y2="-0.15" layer="31" rot="R180"/>
-</package>
-<package name="TSSOP28-GROUNDPAD">
-<wire x1="-2.2762" y1="-4.8854" x2="2.2762" y2="-4.8854" width="0.127" layer="51"/>
-<wire x1="2.2762" y1="-4.8854" x2="2.2762" y2="4.8958" width="0.127" layer="51"/>
-<wire x1="2.2762" y1="4.8958" x2="-2.2762" y2="4.8958" width="0.127" layer="51"/>
-<wire x1="-2.2762" y1="4.8958" x2="-2.2762" y2="-4.8854" width="0.127" layer="51"/>
-<wire x1="-2.2762" y1="4.8958" x2="2.2762" y2="4.8958" width="0.127" layer="21"/>
-<wire x1="2.2762" y1="4.8958" x2="2.2762" y2="-4.8854" width="0.127" layer="21"/>
-<wire x1="2.2762" y1="-4.8854" x2="-2.2762" y2="-4.8854" width="0.127" layer="21"/>
-<wire x1="-2.2762" y1="-4.8854" x2="-2.2762" y2="4.8958" width="0.127" layer="21"/>
-<circle x="-1.7" y="4.3958" radius="0.1414" width="0.05" layer="21"/>
-<smd name="14" x="-2.921" y="-4.2874" dx="0.8" dy="0.25" layer="1"/>
-<smd name="13" x="-2.921" y="-3.627" dx="0.8" dy="0.25" layer="1"/>
-<smd name="12" x="-2.921" y="-2.9666" dx="0.8" dy="0.25" layer="1"/>
-<smd name="11" x="-2.921" y="-2.3062" dx="0.8" dy="0.25" layer="1"/>
-<smd name="10" x="-2.921" y="-1.6458" dx="0.8" dy="0.25" layer="1"/>
-<smd name="9" x="-2.921" y="-0.9854" dx="0.8" dy="0.25" layer="1"/>
-<smd name="8" x="-2.927" y="-0.325" dx="0.8" dy="0.25" layer="1"/>
-<smd name="7" x="-2.921" y="0.3354" dx="0.8" dy="0.25" layer="1"/>
-<smd name="6" x="-2.921" y="0.9958" dx="0.8" dy="0.25" layer="1"/>
-<smd name="5" x="-2.921" y="1.6562" dx="0.8" dy="0.25" layer="1"/>
-<smd name="4" x="-2.921" y="2.3166" dx="0.8" dy="0.25" layer="1"/>
-<smd name="3" x="-2.921" y="2.977" dx="0.8" dy="0.25" layer="1"/>
-<smd name="2" x="-2.921" y="3.6374" dx="0.8" dy="0.25" layer="1"/>
-<smd name="1" x="-2.921" y="4.2978" dx="0.8" dy="0.25" layer="1"/>
-<smd name="28" x="2.921" y="4.2978" dx="0.8" dy="0.25" layer="1"/>
-<smd name="27" x="2.921" y="3.6374" dx="0.8" dy="0.25" layer="1"/>
-<smd name="26" x="2.921" y="2.977" dx="0.8" dy="0.25" layer="1"/>
-<smd name="25" x="2.921" y="2.3166" dx="0.8" dy="0.25" layer="1"/>
-<smd name="24" x="2.921" y="1.6562" dx="0.8" dy="0.25" layer="1"/>
-<smd name="23" x="2.921" y="0.9958" dx="0.8" dy="0.25" layer="1"/>
-<smd name="22" x="2.921" y="0.3354" dx="0.8" dy="0.25" layer="1"/>
-<smd name="21" x="2.927" y="-0.325" dx="0.8" dy="0.25" layer="1"/>
-<smd name="20" x="2.921" y="-0.9854" dx="0.8" dy="0.25" layer="1"/>
-<smd name="19" x="2.921" y="-1.6458" dx="0.8" dy="0.25" layer="1"/>
-<smd name="18" x="2.921" y="-2.3062" dx="0.8" dy="0.25" layer="1"/>
-<smd name="17" x="2.921" y="-2.9666" dx="0.8" dy="0.25" layer="1"/>
-<smd name="16" x="2.921" y="-3.627" dx="0.8" dy="0.25" layer="1"/>
-<smd name="15" x="2.921" y="-4.2874" dx="0.8" dy="0.25" layer="1"/>
-<smd name="29" x="0" y="0.005" dx="6.6" dy="3.2" layer="1" rot="R90" cream="no"/>
-<text x="-2.1" y="5.0958" size="0.254" layer="25">&gt;Name</text>
-<text x="-2.1" y="-5.3346" size="0.254" layer="27">&gt;Value</text>
-<polygon width="0.127" layer="31">
-<vertex x="-0.75" y="-0.75"/>
-<vertex x="-0.75" y="0.75"/>
-<vertex x="0.75" y="0.75"/>
-<vertex x="0.75" y="-0.75"/>
-</polygon>
-</package>
 <package name="1X03">
 <wire x1="3.81" y1="0.635" x2="4.445" y2="1.27" width="0.2032" layer="21"/>
 <wire x1="4.445" y1="1.27" x2="5.715" y2="1.27" width="0.2032" layer="21"/>
@@ -1158,42 +980,6 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 </package>
 </packages>
 <symbols>
-<symbol name="TLC5940">
-<wire x1="-10.16" y1="20.32" x2="-10.16" y2="-22.86" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="-22.86" x2="10.16" y2="-22.86" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-22.86" x2="10.16" y2="20.32" width="0.254" layer="94"/>
-<wire x1="10.16" y1="20.32" x2="-10.16" y2="20.32" width="0.254" layer="94"/>
-<text x="-10.16" y="20.828" size="1.778" layer="95">&gt;NAME</text>
-<text x="-10.16" y="-25.146" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="GND" x="-12.7" y="-20.32" length="short"/>
-<pin name="BLANK" x="-12.7" y="0" length="short"/>
-<pin name="SCLK" x="-12.7" y="12.7" length="short"/>
-<pin name="SIN" x="-12.7" y="10.16" length="short"/>
-<pin name="VPRG" x="-12.7" y="-10.16" length="short"/>
-<pin name="OUT0" x="12.7" y="17.78" length="short" rot="R180"/>
-<pin name="OUT1" x="12.7" y="15.24" length="short" rot="R180"/>
-<pin name="OUT2" x="12.7" y="12.7" length="short" rot="R180"/>
-<pin name="OUT3" x="12.7" y="10.16" length="short" rot="R180"/>
-<pin name="OUT4" x="12.7" y="7.62" length="short" rot="R180"/>
-<pin name="OUT5" x="12.7" y="5.08" length="short" rot="R180"/>
-<pin name="OUT6" x="12.7" y="2.54" length="short" rot="R180"/>
-<pin name="OUT7" x="12.7" y="0" length="short" rot="R180"/>
-<pin name="OUT8" x="12.7" y="-2.54" length="short" rot="R180"/>
-<pin name="XLAT" x="-12.7" y="5.08" length="short"/>
-<pin name="OUT9" x="12.7" y="-5.08" length="short" rot="R180"/>
-<pin name="OUT10" x="12.7" y="-7.62" length="short" rot="R180"/>
-<pin name="OUT11" x="12.7" y="-10.16" length="short" rot="R180"/>
-<pin name="OUT12" x="12.7" y="-12.7" length="short" rot="R180"/>
-<pin name="OUT13" x="12.7" y="-15.24" length="short" rot="R180"/>
-<pin name="OUT14" x="12.7" y="-17.78" length="short" rot="R180"/>
-<pin name="OUT15" x="12.7" y="-20.32" length="short" rot="R180"/>
-<pin name="XERR" x="-12.7" y="-7.62" length="short"/>
-<pin name="SOUT" x="-12.7" y="7.62" length="short"/>
-<pin name="GSCLK" x="-12.7" y="2.54" length="short"/>
-<pin name="DCPRG" x="-12.7" y="-5.08" length="short"/>
-<pin name="IREF" x="-12.7" y="-12.7" length="short"/>
-<pin name="VCC" x="-12.7" y="17.78" length="short"/>
-</symbol>
 <symbol name="VCC2">
 <wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
 <wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
@@ -1279,126 +1065,6 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="TLC5940" prefix="U">
-<description>&lt;h3&gt;TI TLC5940&lt;/h3&gt;
-16-channel LED Driver with Dot Correction and Grayscale PWM Control
-&lt;hr&gt;
-&lt;p&gt;The TLC5940 is a 16-channel, constant-current sink LED driver. Each channel has an individually adjustable 4096-step grayscale PWM brightness control and a 64-step, constant-current sink (dot correction). The dot correction adjusts the brightness variations between LED channels and other LED drivers. The dot correction data is stored in an integrated EEPROM. Both grayscale control and dot correction are accessible via a serial interface. A single external resistor sets the maximum current value of all 16 channels.&lt;/p&gt;
-&lt;p&gt;&lt;b&gt;Packages:&lt;/b&gt;
-&lt;ul&gt;&lt;li&gt;28-pin HTSSOP
-&lt;li&gt;32-pin 5x5mm QFN
-&lt;li&gt;28-pin DIP&lt;/ul&gt;&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="TLC5940" x="0" y="0"/>
-</gates>
-<devices>
-<device name="-NT" package="DIL28-3">
-<connects>
-<connect gate="G$1" pin="BLANK" pad="23"/>
-<connect gate="G$1" pin="DCPRG" pad="19"/>
-<connect gate="G$1" pin="GND" pad="22"/>
-<connect gate="G$1" pin="GSCLK" pad="18"/>
-<connect gate="G$1" pin="IREF" pad="20"/>
-<connect gate="G$1" pin="OUT0" pad="28"/>
-<connect gate="G$1" pin="OUT1" pad="1"/>
-<connect gate="G$1" pin="OUT10" pad="10"/>
-<connect gate="G$1" pin="OUT11" pad="11"/>
-<connect gate="G$1" pin="OUT12" pad="12"/>
-<connect gate="G$1" pin="OUT13" pad="13"/>
-<connect gate="G$1" pin="OUT14" pad="14"/>
-<connect gate="G$1" pin="OUT15" pad="15"/>
-<connect gate="G$1" pin="OUT2" pad="2"/>
-<connect gate="G$1" pin="OUT3" pad="3"/>
-<connect gate="G$1" pin="OUT4" pad="4"/>
-<connect gate="G$1" pin="OUT5" pad="5"/>
-<connect gate="G$1" pin="OUT6" pad="6"/>
-<connect gate="G$1" pin="OUT7" pad="7"/>
-<connect gate="G$1" pin="OUT8" pad="8"/>
-<connect gate="G$1" pin="OUT9" pad="9"/>
-<connect gate="G$1" pin="SCLK" pad="25"/>
-<connect gate="G$1" pin="SIN" pad="26"/>
-<connect gate="G$1" pin="SOUT" pad="17"/>
-<connect gate="G$1" pin="VCC" pad="21"/>
-<connect gate="G$1" pin="VPRG" pad="27"/>
-<connect gate="G$1" pin="XERR" pad="16"/>
-<connect gate="G$1" pin="XLAT" pad="24"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-RHB" package="QFN-32">
-<connects>
-<connect gate="G$1" pin="BLANK" pad="31"/>
-<connect gate="G$1" pin="DCPRG" pad="25"/>
-<connect gate="G$1" pin="GND" pad="30"/>
-<connect gate="G$1" pin="GSCLK" pad="24"/>
-<connect gate="G$1" pin="IREF" pad="26"/>
-<connect gate="G$1" pin="OUT0" pad="4"/>
-<connect gate="G$1" pin="OUT1" pad="5"/>
-<connect gate="G$1" pin="OUT10" pad="16"/>
-<connect gate="G$1" pin="OUT11" pad="17"/>
-<connect gate="G$1" pin="OUT12" pad="18"/>
-<connect gate="G$1" pin="OUT13" pad="19"/>
-<connect gate="G$1" pin="OUT14" pad="20"/>
-<connect gate="G$1" pin="OUT15" pad="21"/>
-<connect gate="G$1" pin="OUT2" pad="6"/>
-<connect gate="G$1" pin="OUT3" pad="7"/>
-<connect gate="G$1" pin="OUT4" pad="8"/>
-<connect gate="G$1" pin="OUT5" pad="9"/>
-<connect gate="G$1" pin="OUT6" pad="10"/>
-<connect gate="G$1" pin="OUT7" pad="11"/>
-<connect gate="G$1" pin="OUT8" pad="14"/>
-<connect gate="G$1" pin="OUT9" pad="15"/>
-<connect gate="G$1" pin="SCLK" pad="1"/>
-<connect gate="G$1" pin="SIN" pad="2"/>
-<connect gate="G$1" pin="SOUT" pad="23"/>
-<connect gate="G$1" pin="VCC" pad="27"/>
-<connect gate="G$1" pin="VPRG" pad="3"/>
-<connect gate="G$1" pin="XERR" pad="22"/>
-<connect gate="G$1" pin="XLAT" pad="32"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="PWP" package="TSSOP28-GROUNDPAD">
-<connects>
-<connect gate="G$1" pin="BLANK" pad="2"/>
-<connect gate="G$1" pin="DCPRG" pad="26"/>
-<connect gate="G$1" pin="GND" pad="1"/>
-<connect gate="G$1" pin="GSCLK" pad="25"/>
-<connect gate="G$1" pin="IREF" pad="27"/>
-<connect gate="G$1" pin="OUT0" pad="7"/>
-<connect gate="G$1" pin="OUT1" pad="8"/>
-<connect gate="G$1" pin="OUT10" pad="17"/>
-<connect gate="G$1" pin="OUT11" pad="18"/>
-<connect gate="G$1" pin="OUT12" pad="19"/>
-<connect gate="G$1" pin="OUT13" pad="20"/>
-<connect gate="G$1" pin="OUT14" pad="21"/>
-<connect gate="G$1" pin="OUT15" pad="22"/>
-<connect gate="G$1" pin="OUT2" pad="9"/>
-<connect gate="G$1" pin="OUT3" pad="10"/>
-<connect gate="G$1" pin="OUT4" pad="11"/>
-<connect gate="G$1" pin="OUT5" pad="12"/>
-<connect gate="G$1" pin="OUT6" pad="13"/>
-<connect gate="G$1" pin="OUT7" pad="14"/>
-<connect gate="G$1" pin="OUT8" pad="15"/>
-<connect gate="G$1" pin="OUT9" pad="16"/>
-<connect gate="G$1" pin="SCLK" pad="4"/>
-<connect gate="G$1" pin="SIN" pad="5"/>
-<connect gate="G$1" pin="SOUT" pad="24"/>
-<connect gate="G$1" pin="VCC" pad="28"/>
-<connect gate="G$1" pin="VPRG" pad="6"/>
-<connect gate="G$1" pin="XERR" pad="23"/>
-<connect gate="G$1" pin="XLAT" pad="3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="VCC" prefix="P+">
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
@@ -18404,6 +18070,359 @@ Standard 3.3V and 5V 150mA LDO voltage regulator in SOT-23 layout. Micrel part M
 </deviceset>
 </devicesets>
 </library>
+<library name="SparkFun-DigitalIC">
+<description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
+In this library you'll find all manner of digital ICs- microcontrollers, memory chips, logic chips, FPGAs, etc.&lt;br&gt;&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is the end user's responsibility to ensure correctness and suitablity for a given componet or application. If you enjoy using this library, please buy one of our products at www.sparkfun.com.
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="DIL28-3">
+<description>Standard 28-pin DIP package.&lt;br&gt;
+IC needs to have legs bent before insertion.</description>
+<wire x1="-17.78" y1="-1.27" x2="-17.78" y2="-3.048" width="0.2032" layer="21"/>
+<wire x1="-17.78" y1="-1.27" x2="-17.78" y2="1.27" width="0.2032" layer="21" curve="180"/>
+<wire x1="17.78" y1="-3.048" x2="17.78" y2="3.048" width="0.2032" layer="21"/>
+<wire x1="-17.78" y1="3.048" x2="-17.78" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="-17.78" y1="3.048" x2="-17.526" y2="3.048" width="0.2032" layer="21"/>
+<wire x1="-17.78" y1="-3.048" x2="-17.526" y2="-3.048" width="0.2032" layer="21"/>
+<wire x1="17.78" y1="-3.048" x2="17.526" y2="-3.048" width="0.2032" layer="21"/>
+<wire x1="17.78" y1="3.048" x2="17.526" y2="3.048" width="0.2032" layer="21"/>
+<pad name="1" x="-16.51" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="2" x="-13.97" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="3" x="-11.43" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="4" x="-8.89" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="5" x="-6.35" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="6" x="-3.81" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="7" x="-1.27" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="8" x="1.27" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="9" x="3.81" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="10" x="6.35" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="11" x="8.89" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="12" x="11.43" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="13" x="13.97" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="14" x="16.51" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="15" x="16.51" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="16" x="13.97" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="17" x="11.43" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="18" x="8.89" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="19" x="6.35" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="20" x="3.81" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="21" x="1.27" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="22" x="-1.27" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="23" x="-3.81" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="24" x="-6.35" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="25" x="-8.89" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="26" x="-11.43" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="27" x="-13.97" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="28" x="-16.51" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<text x="-15.24" y="0" size="0.6096" layer="25" ratio="10">&gt;NAME</text>
+<text x="-15.24" y="-1.27" size="0.6096" layer="27" ratio="10">&gt;VALUE</text>
+</package>
+<package name="QFN-32">
+<description>&lt;h3&gt;QFN 32-Pin package w/ Thermal Pad&lt;/h3&gt;
+&lt;b&gt;***Unproven***&lt;/b&gt;
+&lt;br&gt;&lt;br&gt;
+&lt;B&gt;Applicable Parts:&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;TLC5940&lt;/ul&gt;</description>
+<wire x1="-2.5" y1="-2.5" x2="2.5" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="2.5" y1="-2.5" x2="2.5" y2="2.5" width="0.127" layer="51"/>
+<wire x1="2.5" y1="2.5" x2="-2.5" y2="2.5" width="0.127" layer="51"/>
+<wire x1="-2.5" y1="2.5" x2="-2.5" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-2.5" y1="2.1" x2="-2.5" y2="2.5" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="2.5" x2="-2.1" y2="2.5" width="0.127" layer="21"/>
+<wire x1="2.1" y1="2.5" x2="2.5" y2="2.5" width="0.127" layer="21"/>
+<wire x1="2.5" y1="2.5" x2="2.5" y2="2.1" width="0.127" layer="21"/>
+<wire x1="2.5" y1="-2.1" x2="2.5" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="2.5" y1="-2.5" x2="2.1" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="-2.1" x2="-2.1" y2="-2.5" width="0.127" layer="21"/>
+<circle x="-1.8" y="-1.8" radius="0.1" width="0.127" layer="21"/>
+<smd name="1" x="-1.75" y="-2.5" dx="0.8" dy="0.2846" layer="1" rot="R90"/>
+<smd name="2" x="-1.25" y="-2.5" dx="0.8" dy="0.2846" layer="1" rot="R90"/>
+<smd name="3" x="-0.75" y="-2.5" dx="0.8" dy="0.2846" layer="1" rot="R90"/>
+<smd name="4" x="-0.25" y="-2.5" dx="0.8" dy="0.2846" layer="1" rot="R90"/>
+<smd name="5" x="0.25" y="-2.5" dx="0.8" dy="0.2846" layer="1" rot="R90"/>
+<smd name="6" x="0.75" y="-2.5" dx="0.8" dy="0.2846" layer="1" rot="R90"/>
+<smd name="7" x="1.25" y="-2.5" dx="0.8" dy="0.2846" layer="1" rot="R90"/>
+<smd name="8" x="1.75" y="-2.5" dx="0.8" dy="0.2846" layer="1" rot="R90"/>
+<smd name="9" x="2.5" y="-1.75" dx="0.8" dy="0.2846" layer="1" rot="R180"/>
+<smd name="10" x="2.5" y="-1.25" dx="0.8" dy="0.2846" layer="1" rot="R180"/>
+<smd name="11" x="2.5" y="-0.75" dx="0.8" dy="0.2846" layer="1" rot="R180"/>
+<smd name="12" x="2.5" y="-0.25" dx="0.8" dy="0.2846" layer="1" rot="R180"/>
+<smd name="13" x="2.5" y="0.25" dx="0.8" dy="0.2846" layer="1" rot="R180"/>
+<smd name="14" x="2.5" y="0.75" dx="0.8" dy="0.2846" layer="1" rot="R180"/>
+<smd name="15" x="2.5" y="1.25" dx="0.8" dy="0.2846" layer="1" rot="R180"/>
+<smd name="16" x="2.5" y="1.75" dx="0.8" dy="0.2846" layer="1" rot="R180"/>
+<smd name="17" x="1.75" y="2.5" dx="0.8" dy="0.2846" layer="1" rot="R270"/>
+<smd name="18" x="1.25" y="2.5" dx="0.8" dy="0.2846" layer="1" rot="R270"/>
+<smd name="19" x="0.75" y="2.5" dx="0.8" dy="0.2846" layer="1" rot="R270"/>
+<smd name="20" x="0.25" y="2.5" dx="0.8" dy="0.2846" layer="1" rot="R270"/>
+<smd name="21" x="-0.25" y="2.5" dx="0.8" dy="0.2846" layer="1" rot="R270"/>
+<smd name="22" x="-0.75" y="2.5" dx="0.8" dy="0.2846" layer="1" rot="R270"/>
+<smd name="23" x="-1.25" y="2.5" dx="0.8" dy="0.2846" layer="1" rot="R270"/>
+<smd name="24" x="-1.75" y="2.5" dx="0.8" dy="0.2846" layer="1" rot="R270"/>
+<smd name="25" x="-2.5" y="1.75" dx="0.8" dy="0.2846" layer="1"/>
+<smd name="26" x="-2.5" y="1.25" dx="0.8" dy="0.2846" layer="1"/>
+<smd name="27" x="-2.5" y="0.75" dx="0.8" dy="0.2846" layer="1"/>
+<smd name="28" x="-2.5" y="0.25" dx="0.8" dy="0.2846" layer="1"/>
+<smd name="29" x="-2.5" y="-0.25" dx="0.8" dy="0.2846" layer="1"/>
+<smd name="30" x="-2.5" y="-0.75" dx="0.8" dy="0.2846" layer="1"/>
+<smd name="31" x="-2.5" y="-1.25" dx="0.8" dy="0.2846" layer="1"/>
+<smd name="32" x="-2.5" y="-1.75" dx="0.8" dy="0.2846" layer="1"/>
+<smd name="EP" x="0" y="0" dx="3.15" dy="3.15" layer="1" cream="no"/>
+<text x="-1.27" y="1.524" size="0.4318" layer="25">&gt;Name</text>
+<text x="-1.27" y="-1.905" size="0.4318" layer="27">&gt;Value</text>
+<rectangle x1="-2.5" y1="0.13" x2="-2.1" y2="0.37" layer="51"/>
+<rectangle x1="-2.5" y1="-0.37" x2="-2.1" y2="-0.13" layer="51"/>
+<rectangle x1="-2.5" y1="-0.87" x2="-2.1" y2="-0.63" layer="51"/>
+<rectangle x1="-2.5" y1="-1.37" x2="-2.1" y2="-1.13" layer="51"/>
+<rectangle x1="-2.5" y1="-1.87" x2="-2.1" y2="-1.63" layer="51"/>
+<rectangle x1="-2.5" y1="0.63" x2="-2.1" y2="0.87" layer="51"/>
+<rectangle x1="-2.5" y1="1.13" x2="-2.1" y2="1.37" layer="51"/>
+<rectangle x1="-2.5" y1="1.63" x2="-2.1" y2="1.87" layer="51"/>
+<rectangle x1="0.05" y1="2.18" x2="0.45" y2="2.42" layer="51" rot="R270"/>
+<rectangle x1="-0.45" y1="2.18" x2="-0.05" y2="2.42" layer="51" rot="R270"/>
+<rectangle x1="-0.95" y1="2.18" x2="-0.55" y2="2.42" layer="51" rot="R270"/>
+<rectangle x1="-1.45" y1="2.18" x2="-1.05" y2="2.42" layer="51" rot="R270"/>
+<rectangle x1="-1.95" y1="2.18" x2="-1.55" y2="2.42" layer="51" rot="R270"/>
+<rectangle x1="0.55" y1="2.18" x2="0.95" y2="2.42" layer="51" rot="R270"/>
+<rectangle x1="1.05" y1="2.18" x2="1.45" y2="2.42" layer="51" rot="R270"/>
+<rectangle x1="1.55" y1="2.18" x2="1.95" y2="2.42" layer="51" rot="R270"/>
+<rectangle x1="-0.45" y1="-2.42" x2="-0.05" y2="-2.18" layer="51" rot="R90"/>
+<rectangle x1="0.05" y1="-2.42" x2="0.45" y2="-2.18" layer="51" rot="R90"/>
+<rectangle x1="0.55" y1="-2.42" x2="0.95" y2="-2.18" layer="51" rot="R90"/>
+<rectangle x1="1.05" y1="-2.42" x2="1.45" y2="-2.18" layer="51" rot="R90"/>
+<rectangle x1="1.55" y1="-2.42" x2="1.95" y2="-2.18" layer="51" rot="R90"/>
+<rectangle x1="-0.95" y1="-2.42" x2="-0.55" y2="-2.18" layer="51" rot="R90"/>
+<rectangle x1="-1.45" y1="-2.42" x2="-1.05" y2="-2.18" layer="51" rot="R90"/>
+<rectangle x1="-1.95" y1="-2.42" x2="-1.55" y2="-2.18" layer="51" rot="R90"/>
+<rectangle x1="2.1" y1="-0.37" x2="2.5" y2="-0.13" layer="51" rot="R180"/>
+<rectangle x1="2.1" y1="0.13" x2="2.5" y2="0.37" layer="51" rot="R180"/>
+<rectangle x1="2.1" y1="0.63" x2="2.5" y2="0.87" layer="51" rot="R180"/>
+<rectangle x1="2.1" y1="1.13" x2="2.5" y2="1.37" layer="51" rot="R180"/>
+<rectangle x1="2.1" y1="1.63" x2="2.5" y2="1.87" layer="51" rot="R180"/>
+<rectangle x1="2.1" y1="-0.87" x2="2.5" y2="-0.63" layer="51" rot="R180"/>
+<rectangle x1="2.1" y1="-1.37" x2="2.5" y2="-1.13" layer="51" rot="R180"/>
+<rectangle x1="2.1" y1="-1.87" x2="2.5" y2="-1.63" layer="51" rot="R180"/>
+<rectangle x1="-1.45" y1="0.15" x2="-0.15" y2="1.45" layer="31"/>
+<rectangle x1="0.15" y1="0.15" x2="1.45" y2="1.45" layer="31" rot="R270"/>
+<rectangle x1="-1.45" y1="-1.45" x2="-0.15" y2="-0.15" layer="31" rot="R90"/>
+<rectangle x1="0.15" y1="-1.45" x2="1.45" y2="-0.15" layer="31" rot="R180"/>
+</package>
+<package name="TSSOP28-GROUNDPAD">
+<wire x1="-2.2762" y1="-4.8854" x2="2.2762" y2="-4.8854" width="0.127" layer="51"/>
+<wire x1="2.2762" y1="-4.8854" x2="2.2762" y2="4.8958" width="0.127" layer="51"/>
+<wire x1="2.2762" y1="4.8958" x2="-2.2762" y2="4.8958" width="0.127" layer="51"/>
+<wire x1="-2.2762" y1="4.8958" x2="-2.2762" y2="-4.8854" width="0.127" layer="51"/>
+<wire x1="-2.2762" y1="4.8958" x2="2.2762" y2="4.8958" width="0.127" layer="21"/>
+<wire x1="2.2762" y1="4.8958" x2="2.2762" y2="-4.8854" width="0.127" layer="21"/>
+<wire x1="2.2762" y1="-4.8854" x2="-2.2762" y2="-4.8854" width="0.127" layer="21"/>
+<wire x1="-2.2762" y1="-4.8854" x2="-2.2762" y2="4.8958" width="0.127" layer="21"/>
+<circle x="-1.7" y="4.3958" radius="0.1414" width="0.05" layer="21"/>
+<smd name="14" x="-2.921" y="-4.2874" dx="0.8" dy="0.25" layer="1"/>
+<smd name="13" x="-2.921" y="-3.627" dx="0.8" dy="0.25" layer="1"/>
+<smd name="12" x="-2.921" y="-2.9666" dx="0.8" dy="0.25" layer="1"/>
+<smd name="11" x="-2.921" y="-2.3062" dx="0.8" dy="0.25" layer="1"/>
+<smd name="10" x="-2.921" y="-1.6458" dx="0.8" dy="0.25" layer="1"/>
+<smd name="9" x="-2.921" y="-0.9854" dx="0.8" dy="0.25" layer="1"/>
+<smd name="8" x="-2.927" y="-0.325" dx="0.8" dy="0.25" layer="1"/>
+<smd name="7" x="-2.921" y="0.3354" dx="0.8" dy="0.25" layer="1"/>
+<smd name="6" x="-2.921" y="0.9958" dx="0.8" dy="0.25" layer="1"/>
+<smd name="5" x="-2.921" y="1.6562" dx="0.8" dy="0.25" layer="1"/>
+<smd name="4" x="-2.921" y="2.3166" dx="0.8" dy="0.25" layer="1"/>
+<smd name="3" x="-2.921" y="2.977" dx="0.8" dy="0.25" layer="1"/>
+<smd name="2" x="-2.921" y="3.6374" dx="0.8" dy="0.25" layer="1"/>
+<smd name="1" x="-2.921" y="4.2978" dx="0.8" dy="0.25" layer="1"/>
+<smd name="28" x="2.921" y="4.2978" dx="0.8" dy="0.25" layer="1"/>
+<smd name="27" x="2.921" y="3.6374" dx="0.8" dy="0.25" layer="1"/>
+<smd name="26" x="2.921" y="2.977" dx="0.8" dy="0.25" layer="1"/>
+<smd name="25" x="2.921" y="2.3166" dx="0.8" dy="0.25" layer="1"/>
+<smd name="24" x="2.921" y="1.6562" dx="0.8" dy="0.25" layer="1"/>
+<smd name="23" x="2.921" y="0.9958" dx="0.8" dy="0.25" layer="1"/>
+<smd name="22" x="2.921" y="0.3354" dx="0.8" dy="0.25" layer="1"/>
+<smd name="21" x="2.927" y="-0.325" dx="0.8" dy="0.25" layer="1"/>
+<smd name="20" x="2.921" y="-0.9854" dx="0.8" dy="0.25" layer="1"/>
+<smd name="19" x="2.921" y="-1.6458" dx="0.8" dy="0.25" layer="1"/>
+<smd name="18" x="2.921" y="-2.3062" dx="0.8" dy="0.25" layer="1"/>
+<smd name="17" x="2.921" y="-2.9666" dx="0.8" dy="0.25" layer="1"/>
+<smd name="16" x="2.921" y="-3.627" dx="0.8" dy="0.25" layer="1"/>
+<smd name="15" x="2.921" y="-4.2874" dx="0.8" dy="0.25" layer="1"/>
+<smd name="29" x="0" y="0.005" dx="6.6" dy="3.2" layer="1" rot="R90" cream="no"/>
+<text x="-2.1" y="5.0958" size="0.254" layer="25">&gt;Name</text>
+<text x="-2.1" y="-5.3346" size="0.254" layer="27">&gt;Value</text>
+<polygon width="0.127" layer="31">
+<vertex x="-0.75" y="-0.75"/>
+<vertex x="-0.75" y="0.75"/>
+<vertex x="0.75" y="0.75"/>
+<vertex x="0.75" y="-0.75"/>
+</polygon>
+</package>
+</packages>
+<symbols>
+<symbol name="TLC5940">
+<wire x1="-10.16" y1="20.32" x2="-10.16" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-22.86" x2="10.16" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-22.86" x2="10.16" y2="20.32" width="0.254" layer="94"/>
+<wire x1="10.16" y1="20.32" x2="-10.16" y2="20.32" width="0.254" layer="94"/>
+<text x="-10.16" y="20.828" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="-25.146" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="GND" x="-12.7" y="-20.32" length="short"/>
+<pin name="BLANK" x="-12.7" y="12.7" length="short"/>
+<pin name="SCLK" x="-12.7" y="10.16" length="short"/>
+<pin name="SIN" x="-12.7" y="7.62" length="short"/>
+<pin name="VPRG" x="-12.7" y="-10.16" length="short"/>
+<pin name="OUT0" x="12.7" y="17.78" length="short" rot="R180"/>
+<pin name="OUT1" x="12.7" y="15.24" length="short" rot="R180"/>
+<pin name="OUT2" x="12.7" y="12.7" length="short" rot="R180"/>
+<pin name="OUT3" x="12.7" y="10.16" length="short" rot="R180"/>
+<pin name="OUT4" x="12.7" y="7.62" length="short" rot="R180"/>
+<pin name="OUT5" x="12.7" y="5.08" length="short" rot="R180"/>
+<pin name="OUT6" x="12.7" y="2.54" length="short" rot="R180"/>
+<pin name="OUT7" x="12.7" y="0" length="short" rot="R180"/>
+<pin name="OUT8" x="12.7" y="-2.54" length="short" rot="R180"/>
+<pin name="XLAT" x="-12.7" y="2.54" length="short"/>
+<pin name="OUT9" x="12.7" y="-5.08" length="short" rot="R180"/>
+<pin name="OUT10" x="12.7" y="-7.62" length="short" rot="R180"/>
+<pin name="OUT11" x="12.7" y="-10.16" length="short" rot="R180"/>
+<pin name="OUT12" x="12.7" y="-12.7" length="short" rot="R180"/>
+<pin name="OUT13" x="12.7" y="-15.24" length="short" rot="R180"/>
+<pin name="OUT14" x="12.7" y="-17.78" length="short" rot="R180"/>
+<pin name="OUT15" x="12.7" y="-20.32" length="short" rot="R180"/>
+<pin name="XERR" x="-12.7" y="-7.62" length="short"/>
+<pin name="SOUT" x="-12.7" y="5.08" length="short"/>
+<pin name="GSCLK" x="-12.7" y="0" length="short"/>
+<pin name="DCPRG" x="-12.7" y="-5.08" length="short"/>
+<pin name="IREF" x="-12.7" y="-12.7" length="short"/>
+<pin name="VCC" x="-12.7" y="17.78" length="short"/>
+<wire x1="10.16" y1="20.32" x2="-10.16" y2="20.32" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="TLC5940" prefix="U">
+<description>16-channel LED Driver with Dot Correction and Grayscale PWM Control
+&lt;hr&gt;
+&lt;p&gt;The TLC5940 is a 16-channel, constant-current sink LED driver. Each channel has an individually adjustable 4096-step grayscale PWM brightness control and a 64-step, constant-current sink (dot correction). The dot correction adjusts the brightness variations between LED channels and other LED drivers. The dot correction data is stored in an integrated EEPROM. Both grayscale control and dot correction are accessible via a serial interface. A single external resistor sets the maximum current value of all 16 channels.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Packages:&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;28-pin HTSSOP
+&lt;li&gt;32-pin 5x5mm QFN
+&lt;li&gt;28-pin DIP&lt;/ul&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="TLC5940" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-NT" package="DIL28-3">
+<connects>
+<connect gate="G$1" pin="BLANK" pad="23"/>
+<connect gate="G$1" pin="DCPRG" pad="19"/>
+<connect gate="G$1" pin="GND" pad="22"/>
+<connect gate="G$1" pin="GSCLK" pad="18"/>
+<connect gate="G$1" pin="IREF" pad="20"/>
+<connect gate="G$1" pin="OUT0" pad="28"/>
+<connect gate="G$1" pin="OUT1" pad="1"/>
+<connect gate="G$1" pin="OUT10" pad="10"/>
+<connect gate="G$1" pin="OUT11" pad="11"/>
+<connect gate="G$1" pin="OUT12" pad="12"/>
+<connect gate="G$1" pin="OUT13" pad="13"/>
+<connect gate="G$1" pin="OUT14" pad="14"/>
+<connect gate="G$1" pin="OUT15" pad="15"/>
+<connect gate="G$1" pin="OUT2" pad="2"/>
+<connect gate="G$1" pin="OUT3" pad="3"/>
+<connect gate="G$1" pin="OUT4" pad="4"/>
+<connect gate="G$1" pin="OUT5" pad="5"/>
+<connect gate="G$1" pin="OUT6" pad="6"/>
+<connect gate="G$1" pin="OUT7" pad="7"/>
+<connect gate="G$1" pin="OUT8" pad="8"/>
+<connect gate="G$1" pin="OUT9" pad="9"/>
+<connect gate="G$1" pin="SCLK" pad="25"/>
+<connect gate="G$1" pin="SIN" pad="26"/>
+<connect gate="G$1" pin="SOUT" pad="17"/>
+<connect gate="G$1" pin="VCC" pad="21"/>
+<connect gate="G$1" pin="VPRG" pad="27"/>
+<connect gate="G$1" pin="XERR" pad="16"/>
+<connect gate="G$1" pin="XLAT" pad="24"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-RHB" package="QFN-32">
+<connects>
+<connect gate="G$1" pin="BLANK" pad="31"/>
+<connect gate="G$1" pin="DCPRG" pad="25"/>
+<connect gate="G$1" pin="GND" pad="30"/>
+<connect gate="G$1" pin="GSCLK" pad="24"/>
+<connect gate="G$1" pin="IREF" pad="26"/>
+<connect gate="G$1" pin="OUT0" pad="4"/>
+<connect gate="G$1" pin="OUT1" pad="5"/>
+<connect gate="G$1" pin="OUT10" pad="16"/>
+<connect gate="G$1" pin="OUT11" pad="17"/>
+<connect gate="G$1" pin="OUT12" pad="18"/>
+<connect gate="G$1" pin="OUT13" pad="19"/>
+<connect gate="G$1" pin="OUT14" pad="20"/>
+<connect gate="G$1" pin="OUT15" pad="21"/>
+<connect gate="G$1" pin="OUT2" pad="6"/>
+<connect gate="G$1" pin="OUT3" pad="7"/>
+<connect gate="G$1" pin="OUT4" pad="8"/>
+<connect gate="G$1" pin="OUT5" pad="9"/>
+<connect gate="G$1" pin="OUT6" pad="10"/>
+<connect gate="G$1" pin="OUT7" pad="11"/>
+<connect gate="G$1" pin="OUT8" pad="14"/>
+<connect gate="G$1" pin="OUT9" pad="15"/>
+<connect gate="G$1" pin="SCLK" pad="1"/>
+<connect gate="G$1" pin="SIN" pad="2"/>
+<connect gate="G$1" pin="SOUT" pad="23"/>
+<connect gate="G$1" pin="VCC" pad="27"/>
+<connect gate="G$1" pin="VPRG" pad="3"/>
+<connect gate="G$1" pin="XERR" pad="22"/>
+<connect gate="G$1" pin="XLAT" pad="32"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="IC-10398"/>
+</technology>
+</technologies>
+</device>
+<device name="PWP" package="TSSOP28-GROUNDPAD">
+<connects>
+<connect gate="G$1" pin="BLANK" pad="2"/>
+<connect gate="G$1" pin="DCPRG" pad="26"/>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="GSCLK" pad="25"/>
+<connect gate="G$1" pin="IREF" pad="27"/>
+<connect gate="G$1" pin="OUT0" pad="7"/>
+<connect gate="G$1" pin="OUT1" pad="8"/>
+<connect gate="G$1" pin="OUT10" pad="17"/>
+<connect gate="G$1" pin="OUT11" pad="18"/>
+<connect gate="G$1" pin="OUT12" pad="19"/>
+<connect gate="G$1" pin="OUT13" pad="20"/>
+<connect gate="G$1" pin="OUT14" pad="21"/>
+<connect gate="G$1" pin="OUT15" pad="22"/>
+<connect gate="G$1" pin="OUT2" pad="9"/>
+<connect gate="G$1" pin="OUT3" pad="10"/>
+<connect gate="G$1" pin="OUT4" pad="11"/>
+<connect gate="G$1" pin="OUT5" pad="12"/>
+<connect gate="G$1" pin="OUT6" pad="13"/>
+<connect gate="G$1" pin="OUT7" pad="14"/>
+<connect gate="G$1" pin="OUT8" pad="15"/>
+<connect gate="G$1" pin="OUT9" pad="16"/>
+<connect gate="G$1" pin="SCLK" pad="4"/>
+<connect gate="G$1" pin="SIN" pad="5"/>
+<connect gate="G$1" pin="SOUT" pad="24"/>
+<connect gate="G$1" pin="VCC" pad="28"/>
+<connect gate="G$1" pin="VPRG" pad="6"/>
+<connect gate="G$1" pin="XERR" pad="23"/>
+<connect gate="G$1" pin="XLAT" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -18415,10 +18434,6 @@ Standard 3.3V and 5V 150mA LDO voltage regulator in SOT-23 layout. Micrel part M
 </classes>
 <parts>
 <part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-LETTER" device=""/>
-<part name="U1" library="SparkFun" deviceset="TLC5940" device="-RHB"/>
-<part name="GND1" library="SparkFun" deviceset="GND" device=""/>
-<part name="R1" library="SparkFun-Resistors" deviceset="2.2KOHM-1/10W-1%(0603)" device="" value="2.2k"/>
-<part name="GND2" library="SparkFun" deviceset="GND" device=""/>
 <part name="JP1" library="SparkFun" deviceset="M03" device="PTH"/>
 <part name="GND4" library="SparkFun" deviceset="GND" device=""/>
 <part name="P+3" library="SparkFun" deviceset="VCC" device=""/>
@@ -18467,7 +18482,6 @@ Standard 3.3V and 5V 150mA LDO voltage regulator in SOT-23 layout. Micrel part M
 <part name="JP16" library="SparkFun" deviceset="M03" device="PTH"/>
 <part name="GND19" library="SparkFun" deviceset="GND" device=""/>
 <part name="P+18" library="SparkFun" deviceset="VCC" device=""/>
-<part name="R2" library="SparkFun-Resistors" deviceset="RESISTOR" device="KIT" value="R2"/>
 <part name="GND3" library="SparkFun" deviceset="GND" device=""/>
 <part name="JP19" library="SparkFun" deviceset="M02" device="PTH"/>
 <part name="JP20" library="SparkFun" deviceset="M02" device="PTH"/>
@@ -18480,8 +18494,6 @@ Standard 3.3V and 5V 150mA LDO voltage regulator in SOT-23 layout. Micrel part M
 <part name="GND20" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND21" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND22" library="SparkFun" deviceset="GND" device=""/>
-<part name="U$2" library="SparkFun" deviceset="5V" device=""/>
-<part name="U$3" library="SparkFun" deviceset="5V" device=""/>
 <part name="C3" library="SparkFun-Capacitors" deviceset="0.1UF-25V(+80/-20%)(0603)" device="" value="0.1uF"/>
 <part name="U$4" library="SparkFun" deviceset="5V" device=""/>
 <part name="GND23" library="SparkFun" deviceset="GND" device=""/>
@@ -18509,6 +18521,17 @@ Standard 3.3V and 5V 150mA LDO voltage regulator in SOT-23 layout. Micrel part M
 <part name="JP27" library="abes" deviceset="FIDUCIAL" device="1X2.5"/>
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="S"/>
 <part name="LOGO2" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_NAME_FLAME" device=".2_INCH" value="SFE_LOGO_NAME_FLAME.2_INCH"/>
+<part name="U3" library="SparkFun-DigitalIC" deviceset="TLC5940" device="-RHB"/>
+<part name="GND24" library="SparkFun" deviceset="GND" device=""/>
+<part name="R19" library="SparkFun-Resistors" deviceset="2.2KOHM-1/10W-1%(0603)" device="" value="2.2k"/>
+<part name="GND25" library="SparkFun" deviceset="GND" device=""/>
+<part name="R20" library="SparkFun-Resistors" deviceset="RESISTOR" device="KIT" value="R2"/>
+<part name="U$5" library="SparkFun" deviceset="5V" device=""/>
+<part name="U$6" library="SparkFun" deviceset="5V" device=""/>
+<part name="GND1" library="SparkFun" deviceset="GND" device=""/>
+<part name="P+1" library="SparkFun" deviceset="VCC" device=""/>
+<part name="GND2" library="SparkFun" deviceset="GND" device=""/>
+<part name="P+2" library="SparkFun" deviceset="VCC" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -18518,9 +18541,8 @@ Standard 3.3V and 5V 150mA LDO voltage regulator in SOT-23 layout. Micrel part M
 <wire x1="116.84" y1="93.98" x2="116.84" y2="157.48" width="0.2032" layer="97" style="shortdash"/>
 <wire x1="116.84" y1="157.48" x2="0" y2="157.48" width="0.2032" layer="97" style="shortdash"/>
 <wire x1="0" y1="157.48" x2="0" y2="160.02" width="0.2032" layer="97" style="shortdash"/>
-<wire x1="116.84" y1="93.98" x2="147.32" y2="93.98" width="0.2032" layer="97" style="shortdash"/>
-<wire x1="147.32" y1="93.98" x2="147.32" y2="0" width="0.2032" layer="97" style="shortdash"/>
-<wire x1="147.32" y1="0" x2="144.78" y2="0" width="0.2032" layer="97" style="shortdash"/>
+<wire x1="116.84" y1="93.98" x2="152.4" y2="93.98" width="0.2032" layer="97" style="shortdash"/>
+<wire x1="154.94" y1="93.98" x2="154.94" y2="38.1" width="0.2032" layer="97" style="shortdash"/>
 <wire x1="248.92" y1="144.78" x2="248.92" y2="147.32" width="0.2032" layer="97" style="shortdash"/>
 <wire x1="248.92" y1="147.32" x2="152.4" y2="147.32" width="0.2032" layer="97" style="shortdash"/>
 <wire x1="152.4" y1="147.32" x2="152.4" y2="157.48" width="0.2032" layer="97" style="shortdash"/>
@@ -18530,15 +18552,11 @@ Standard 3.3V and 5V 150mA LDO voltage regulator in SOT-23 layout. Micrel part M
 <wire x1="152.4" y1="157.48" x2="152.4" y2="185.42" width="0.2032" layer="97" style="shortdash"/>
 <wire x1="116.84" y1="157.48" x2="152.4" y2="157.48" width="0.2032" layer="97" style="shortdash"/>
 <wire x1="152.4" y1="147.32" x2="152.4" y2="93.98" width="0.2032" layer="97" style="shortdash"/>
-<wire x1="152.4" y1="93.98" x2="147.32" y2="93.98" width="0.2032" layer="97" style="shortdash"/>
+<wire x1="152.4" y1="93.98" x2="154.94" y2="93.98" width="0.2032" layer="97" style="shortdash"/>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="FRAME1" gate="G$2" x="147.32" y="0"/>
-<instance part="U1" gate="G$1" x="195.58" y="91.44"/>
-<instance part="GND1" gate="1" x="180.34" y="58.42"/>
-<instance part="R1" gate="G$1" x="175.26" y="71.12" rot="R90"/>
-<instance part="GND2" gate="1" x="175.26" y="58.42"/>
 <instance part="JP1" gate="G$1" x="5.08" y="127"/>
 <instance part="GND4" gate="1" x="15.24" y="119.38"/>
 <instance part="P+3" gate="1" x="15.24" y="147.32"/>
@@ -18587,7 +18605,6 @@ Standard 3.3V and 5V 150mA LDO voltage regulator in SOT-23 layout. Micrel part M
 <instance part="JP16" gate="G$1" x="91.44" y="12.7"/>
 <instance part="GND19" gate="1" x="101.6" y="5.08"/>
 <instance part="P+18" gate="1" x="101.6" y="33.02"/>
-<instance part="R2" gate="G$1" x="167.64" y="71.12" rot="R90"/>
 <instance part="GND3" gate="1" x="12.7" y="170.18"/>
 <instance part="JP19" gate="G$1" x="127" y="25.4" rot="MR180"/>
 <instance part="JP20" gate="G$1" x="127" y="12.7" rot="MR180"/>
@@ -18600,13 +18617,11 @@ Standard 3.3V and 5V 150mA LDO voltage regulator in SOT-23 layout. Micrel part M
 <instance part="GND20" gate="1" x="175.26" y="152.4"/>
 <instance part="GND21" gate="1" x="182.88" y="152.4"/>
 <instance part="GND22" gate="1" x="213.36" y="152.4"/>
-<instance part="U$2" gate="G$1" x="180.34" y="119.38"/>
-<instance part="U$3" gate="G$1" x="167.64" y="93.98"/>
 <instance part="C3" gate="G$1" x="129.54" y="129.54"/>
 <instance part="U$4" gate="G$1" x="129.54" y="137.16"/>
 <instance part="GND23" gate="1" x="129.54" y="121.92"/>
-<instance part="JP22" gate="G$1" x="129.54" y="73.66"/>
-<instance part="JP23" gate="G$1" x="129.54" y="43.18"/>
+<instance part="JP22" gate="G$1" x="144.78" y="81.28" rot="R180"/>
+<instance part="JP23" gate="G$1" x="144.78" y="53.34" rot="R180"/>
 <instance part="JP17" gate="G$1" x="246.38" y="30.48"/>
 <instance part="JP18" gate="G$1" x="241.3" y="30.48"/>
 <instance part="R3" gate="G$1" x="17.78" y="137.16" rot="R90"/>
@@ -18629,6 +18644,17 @@ Standard 3.3V and 5V 150mA LDO voltage regulator in SOT-23 layout. Micrel part M
 <instance part="JP27" gate="G$1" x="246.38" y="25.4"/>
 <instance part="LOGO1" gate="G$1" x="236.22" y="45.72"/>
 <instance part="LOGO2" gate="G$1" x="162.56" y="35.56"/>
+<instance part="U3" gate="G$1" x="205.74" y="106.68"/>
+<instance part="GND24" gate="1" x="190.5" y="73.66"/>
+<instance part="R19" gate="G$1" x="185.42" y="86.36" rot="R90"/>
+<instance part="GND25" gate="1" x="185.42" y="73.66"/>
+<instance part="R20" gate="G$1" x="177.8" y="86.36" rot="R90"/>
+<instance part="U$5" gate="G$1" x="190.5" y="134.62"/>
+<instance part="U$6" gate="G$1" x="177.8" y="109.22"/>
+<instance part="GND1" gate="1" x="124.46" y="66.04"/>
+<instance part="P+1" gate="1" x="124.46" y="76.2"/>
+<instance part="GND2" gate="1" x="124.46" y="38.1"/>
+<instance part="P+2" gate="1" x="124.46" y="48.26"/>
 </instances>
 <busses>
 </busses>
@@ -18811,14 +18837,16 @@ Standard 3.3V and 5V 150mA LDO voltage regulator in SOT-23 layout. Micrel part M
 <pinref part="R18" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<wire x1="134.62" y1="81.28" x2="137.16" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="73.66" x2="124.46" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="JP22" gate="G$1" pin="6"/>
-<label x="137.16" y="81.28" size="1.27" layer="95" xref="yes"/>
+<pinref part="P+1" gate="1" pin="VCC"/>
+<wire x1="124.46" y1="73.66" x2="124.46" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="134.62" y1="50.8" x2="137.16" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="JP23" gate="G$1" pin="6"/>
-<label x="137.16" y="50.8" size="1.27" layer="95" xref="yes"/>
+<pinref part="P+2" gate="1" pin="VCC"/>
+<wire x1="139.7" y1="45.72" x2="124.46" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="45.72" x2="124.46" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="187.96" y1="170.18" x2="185.42" y2="170.18" width="0.1524" layer="91"/>
@@ -18836,22 +18864,6 @@ Standard 3.3V and 5V 150mA LDO voltage regulator in SOT-23 layout. Micrel part M
 </segment>
 </net>
 <net name="GND" class="0">
-<segment>
-<wire x1="182.88" y1="71.12" x2="180.34" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="180.34" y1="71.12" x2="180.34" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="GND"/>
-<pinref part="GND1" gate="1" pin="GND"/>
-</segment>
-<segment>
-<wire x1="175.26" y1="60.96" x2="175.26" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="63.5" x2="175.26" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="167.64" y1="66.04" x2="167.64" y2="63.5" width="0.1524" layer="91" style="longdash"/>
-<wire x1="167.64" y1="63.5" x2="175.26" y2="63.5" width="0.1524" layer="91" style="longdash"/>
-<junction x="175.26" y="63.5"/>
-<pinref part="GND2" gate="1" pin="GND"/>
-<pinref part="R1" gate="G$1" pin="1"/>
-<pinref part="R2" gate="G$1" pin="1"/>
-</segment>
 <segment>
 <wire x1="12.7" y1="124.46" x2="15.24" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="124.46" x2="15.24" y2="121.92" width="0.1524" layer="91"/>
@@ -18949,14 +18961,16 @@ Standard 3.3V and 5V 150mA LDO voltage regulator in SOT-23 layout. Micrel part M
 <pinref part="GND19" gate="1" pin="GND"/>
 </segment>
 <segment>
-<wire x1="134.62" y1="83.82" x2="137.16" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="71.12" x2="124.46" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="JP22" gate="G$1" pin="7"/>
-<label x="137.16" y="83.82" size="1.27" layer="95" xref="yes"/>
+<pinref part="GND1" gate="1" pin="GND"/>
+<wire x1="124.46" y1="71.12" x2="124.46" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="134.62" y1="53.34" x2="137.16" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="JP23" gate="G$1" pin="7"/>
-<label x="137.16" y="53.34" size="1.27" layer="95" xref="yes"/>
+<pinref part="GND2" gate="1" pin="GND"/>
+<wire x1="139.7" y1="43.18" x2="124.46" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="43.18" x2="124.46" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="12.7" y1="172.72" x2="12.7" y2="175.26" width="0.1524" layer="91"/>
@@ -18985,117 +18999,116 @@ Standard 3.3V and 5V 150mA LDO voltage regulator in SOT-23 layout. Micrel part M
 <pinref part="C3" gate="G$1" pin="2"/>
 <pinref part="GND23" gate="1" pin="GND"/>
 </segment>
-</net>
-<net name="N$8" class="0">
 <segment>
-<wire x1="182.88" y1="78.74" x2="175.26" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="78.74" x2="175.26" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="167.64" y1="76.2" x2="167.64" y2="78.74" width="0.1524" layer="91" style="longdash"/>
-<wire x1="167.64" y1="78.74" x2="175.26" y2="78.74" width="0.1524" layer="91" style="longdash"/>
-<junction x="175.26" y="78.74"/>
-<pinref part="U1" gate="G$1" pin="IREF"/>
-<pinref part="R1" gate="G$1" pin="2"/>
-<pinref part="R2" gate="G$1" pin="2"/>
+<wire x1="193.04" y1="86.36" x2="190.5" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="86.36" x2="190.5" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="GND24" gate="1" pin="GND"/>
+<pinref part="U3" gate="G$1" pin="GND"/>
+</segment>
+<segment>
+<wire x1="185.42" y1="76.2" x2="185.42" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="78.74" x2="185.42" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="81.28" x2="177.8" y2="78.74" width="0.1524" layer="91" style="longdash"/>
+<wire x1="177.8" y1="78.74" x2="185.42" y2="78.74" width="0.1524" layer="91" style="longdash"/>
+<junction x="185.42" y="78.74"/>
+<pinref part="GND25" gate="1" pin="GND"/>
+<pinref part="R19" gate="G$1" pin="1"/>
+<pinref part="R20" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="SCLK" class="0">
 <segment>
-<wire x1="182.88" y1="104.14" x2="180.34" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="SCLK"/>
-<label x="180.34" y="104.14" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<wire x1="134.62" y1="78.74" x2="137.16" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="76.2" x2="137.16" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="JP22" gate="G$1" pin="5"/>
-<label x="137.16" y="78.74" size="1.27" layer="95" xref="yes"/>
+<label x="137.16" y="76.2" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="134.62" y1="48.26" x2="137.16" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="48.26" x2="137.16" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="JP23" gate="G$1" pin="5"/>
-<label x="137.16" y="48.26" size="1.27" layer="95" xref="yes"/>
+<label x="137.16" y="48.26" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U3" gate="G$1" pin="SCLK"/>
+<wire x1="193.04" y1="116.84" x2="190.5" y2="116.84" width="0.1524" layer="91"/>
+<label x="190.5" y="116.84" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="SIN" class="0">
 <segment>
-<wire x1="182.88" y1="101.6" x2="180.34" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="SIN"/>
-<label x="180.34" y="101.6" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="139.7" y1="78.74" x2="137.16" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="JP22" gate="G$1" pin="4"/>
+<label x="137.16" y="78.74" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="134.62" y1="76.2" x2="137.16" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="JP22" gate="G$1" pin="4"/>
-<label x="137.16" y="76.2" size="1.27" layer="95" xref="yes"/>
+<pinref part="U3" gate="G$1" pin="SIN"/>
+<wire x1="193.04" y1="114.3" x2="190.5" y2="114.3" width="0.1524" layer="91"/>
+<label x="190.5" y="114.3" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="SOUT" class="0">
 <segment>
-<wire x1="182.88" y1="99.06" x2="180.34" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="SOUT"/>
-<label x="180.34" y="99.06" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="139.7" y1="50.8" x2="137.16" y2="50.8" width="0.1524" layer="91"/>
+<pinref part="JP23" gate="G$1" pin="4"/>
+<label x="137.16" y="50.8" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="134.62" y1="45.72" x2="137.16" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="JP23" gate="G$1" pin="4"/>
-<label x="137.16" y="45.72" size="1.27" layer="95" xref="yes"/>
+<pinref part="U3" gate="G$1" pin="SOUT"/>
+<wire x1="193.04" y1="111.76" x2="190.5" y2="111.76" width="0.1524" layer="91"/>
+<label x="190.5" y="111.76" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="XLAT" class="0">
 <segment>
-<wire x1="182.88" y1="96.52" x2="180.34" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="XLAT"/>
-<label x="180.34" y="96.52" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<wire x1="134.62" y1="71.12" x2="137.16" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="83.82" x2="137.16" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="JP22" gate="G$1" pin="2"/>
-<label x="137.16" y="71.12" size="1.27" layer="95" xref="yes"/>
+<label x="137.16" y="83.82" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="134.62" y1="40.64" x2="137.16" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="55.88" x2="137.16" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="JP23" gate="G$1" pin="2"/>
-<label x="137.16" y="40.64" size="1.27" layer="95" xref="yes"/>
+<label x="137.16" y="55.88" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U3" gate="G$1" pin="XLAT"/>
+<wire x1="193.04" y1="109.22" x2="190.5" y2="109.22" width="0.1524" layer="91"/>
+<label x="190.5" y="109.22" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="GSCLK" class="0">
 <segment>
-<wire x1="182.88" y1="93.98" x2="180.34" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="GSCLK"/>
-<label x="180.34" y="93.98" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<wire x1="134.62" y1="68.58" x2="137.16" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="86.36" x2="137.16" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="JP22" gate="G$1" pin="1"/>
-<label x="137.16" y="68.58" size="1.27" layer="95" xref="yes"/>
+<label x="137.16" y="86.36" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="134.62" y1="38.1" x2="137.16" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="58.42" x2="137.16" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="JP23" gate="G$1" pin="1"/>
-<label x="137.16" y="38.1" size="1.27" layer="95" xref="yes"/>
+<label x="137.16" y="58.42" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U3" gate="G$1" pin="GSCLK"/>
+<wire x1="193.04" y1="106.68" x2="190.5" y2="106.68" width="0.1524" layer="91"/>
+<label x="190.5" y="106.68" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="BLANK" class="0">
 <segment>
-<wire x1="182.88" y1="91.44" x2="180.34" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="BLANK"/>
-<label x="180.34" y="91.44" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<wire x1="134.62" y1="73.66" x2="137.16" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="81.28" x2="137.16" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="JP22" gate="G$1" pin="3"/>
-<label x="137.16" y="73.66" size="1.27" layer="95" xref="yes"/>
+<label x="137.16" y="81.28" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="134.62" y1="43.18" x2="137.16" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="53.34" x2="137.16" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="JP23" gate="G$1" pin="3"/>
-<label x="137.16" y="43.18" size="1.27" layer="95" xref="yes"/>
+<label x="137.16" y="53.34" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U3" gate="G$1" pin="BLANK"/>
+<wire x1="193.04" y1="119.38" x2="190.5" y2="119.38" width="0.1524" layer="91"/>
+<label x="190.5" y="119.38" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="XERR" class="0">
-<segment>
-<wire x1="182.88" y1="83.82" x2="180.34" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="XERR"/>
-<label x="180.34" y="83.82" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
 <segment>
 <wire x1="134.62" y1="22.86" x2="137.16" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="JP19" gate="G$1" pin="2"/>
@@ -19106,13 +19119,13 @@ Standard 3.3V and 5V 150mA LDO voltage regulator in SOT-23 layout. Micrel part M
 <pinref part="JP20" gate="G$1" pin="2"/>
 <label x="137.16" y="10.16" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<wire x1="193.04" y1="99.06" x2="190.5" y2="99.06" width="0.1524" layer="91"/>
+<label x="190.5" y="99.06" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U3" gate="G$1" pin="XERR"/>
+</segment>
 </net>
 <net name="OUT0" class="0">
-<segment>
-<wire x1="208.28" y1="109.22" x2="210.82" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="OUT0"/>
-<label x="210.82" y="109.22" size="1.27" layer="95" xref="yes"/>
-</segment>
 <segment>
 <wire x1="12.7" y1="129.54" x2="17.78" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="129.54" x2="20.32" y2="129.54" width="0.1524" layer="91"/>
@@ -19122,13 +19135,13 @@ Standard 3.3V and 5V 150mA LDO voltage regulator in SOT-23 layout. Micrel part M
 <pinref part="R3" gate="G$1" pin="1"/>
 <label x="20.32" y="129.54" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<wire x1="218.44" y1="124.46" x2="220.98" y2="124.46" width="0.1524" layer="91"/>
+<label x="220.98" y="124.46" size="1.27" layer="95" xref="yes"/>
+<pinref part="U3" gate="G$1" pin="OUT0"/>
+</segment>
 </net>
 <net name="OUT2" class="0">
-<segment>
-<wire x1="208.28" y1="104.14" x2="210.82" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="OUT2"/>
-<label x="210.82" y="104.14" size="1.27" layer="95" xref="yes"/>
-</segment>
 <segment>
 <wire x1="71.12" y1="129.54" x2="76.2" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="129.54" x2="78.74" y2="129.54" width="0.1524" layer="91"/>
@@ -19138,13 +19151,13 @@ Standard 3.3V and 5V 150mA LDO voltage regulator in SOT-23 layout. Micrel part M
 <pinref part="R5" gate="G$1" pin="1"/>
 <label x="78.74" y="129.54" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<wire x1="218.44" y1="119.38" x2="220.98" y2="119.38" width="0.1524" layer="91"/>
+<label x="220.98" y="119.38" size="1.27" layer="95" xref="yes"/>
+<pinref part="U3" gate="G$1" pin="OUT2"/>
+</segment>
 </net>
 <net name="OUT1" class="0">
-<segment>
-<wire x1="208.28" y1="106.68" x2="210.82" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="OUT1"/>
-<label x="210.82" y="106.68" size="1.27" layer="95" xref="yes"/>
-</segment>
 <segment>
 <wire x1="43.18" y1="129.54" x2="48.26" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="129.54" x2="50.8" y2="129.54" width="0.1524" layer="91"/>
@@ -19154,13 +19167,13 @@ Standard 3.3V and 5V 150mA LDO voltage regulator in SOT-23 layout. Micrel part M
 <pinref part="R4" gate="G$1" pin="1"/>
 <label x="50.8" y="129.54" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<wire x1="218.44" y1="121.92" x2="220.98" y2="121.92" width="0.1524" layer="91"/>
+<label x="220.98" y="121.92" size="1.27" layer="95" xref="yes"/>
+<pinref part="U3" gate="G$1" pin="OUT1"/>
+</segment>
 </net>
 <net name="OUT3" class="0">
-<segment>
-<wire x1="208.28" y1="101.6" x2="210.82" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="OUT3"/>
-<label x="210.82" y="101.6" size="1.27" layer="95" xref="yes"/>
-</segment>
 <segment>
 <wire x1="99.06" y1="129.54" x2="104.14" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="129.54" x2="106.68" y2="129.54" width="0.1524" layer="91"/>
@@ -19170,13 +19183,13 @@ Standard 3.3V and 5V 150mA LDO voltage regulator in SOT-23 layout. Micrel part M
 <pinref part="R6" gate="G$1" pin="1"/>
 <label x="106.68" y="129.54" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<wire x1="218.44" y1="116.84" x2="220.98" y2="116.84" width="0.1524" layer="91"/>
+<label x="220.98" y="116.84" size="1.27" layer="95" xref="yes"/>
+<pinref part="U3" gate="G$1" pin="OUT3"/>
+</segment>
 </net>
 <net name="OUT4" class="0">
-<segment>
-<wire x1="208.28" y1="99.06" x2="210.82" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="OUT4"/>
-<label x="210.82" y="99.06" size="1.27" layer="95" xref="yes"/>
-</segment>
 <segment>
 <wire x1="12.7" y1="91.44" x2="15.24" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="91.44" x2="20.32" y2="91.44" width="0.1524" layer="91"/>
@@ -19187,13 +19200,13 @@ Standard 3.3V and 5V 150mA LDO voltage regulator in SOT-23 layout. Micrel part M
 <pinref part="R7" gate="G$1" pin="1"/>
 <label x="20.32" y="91.44" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<wire x1="218.44" y1="114.3" x2="220.98" y2="114.3" width="0.1524" layer="91"/>
+<label x="220.98" y="114.3" size="1.27" layer="95" xref="yes"/>
+<pinref part="U3" gate="G$1" pin="OUT4"/>
+</segment>
 </net>
 <net name="OUT5" class="0">
-<segment>
-<wire x1="208.28" y1="96.52" x2="210.82" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="OUT5"/>
-<label x="210.82" y="96.52" size="1.27" layer="95" xref="yes"/>
-</segment>
 <segment>
 <wire x1="43.18" y1="91.44" x2="48.26" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="91.44" x2="50.8" y2="91.44" width="0.1524" layer="91"/>
@@ -19203,13 +19216,13 @@ Standard 3.3V and 5V 150mA LDO voltage regulator in SOT-23 layout. Micrel part M
 <pinref part="R8" gate="G$1" pin="1"/>
 <label x="50.8" y="91.44" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<wire x1="218.44" y1="111.76" x2="220.98" y2="111.76" width="0.1524" layer="91"/>
+<label x="220.98" y="111.76" size="1.27" layer="95" xref="yes"/>
+<pinref part="U3" gate="G$1" pin="OUT5"/>
+</segment>
 </net>
 <net name="OUT6" class="0">
-<segment>
-<wire x1="208.28" y1="93.98" x2="210.82" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="OUT6"/>
-<label x="210.82" y="93.98" size="1.27" layer="95" xref="yes"/>
-</segment>
 <segment>
 <wire x1="71.12" y1="91.44" x2="76.2" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="91.44" x2="78.74" y2="91.44" width="0.1524" layer="91"/>
@@ -19219,13 +19232,13 @@ Standard 3.3V and 5V 150mA LDO voltage regulator in SOT-23 layout. Micrel part M
 <pinref part="R9" gate="G$1" pin="1"/>
 <label x="78.74" y="91.44" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<wire x1="218.44" y1="109.22" x2="220.98" y2="109.22" width="0.1524" layer="91"/>
+<label x="220.98" y="109.22" size="1.27" layer="95" xref="yes"/>
+<pinref part="U3" gate="G$1" pin="OUT6"/>
+</segment>
 </net>
 <net name="OUT7" class="0">
-<segment>
-<wire x1="208.28" y1="91.44" x2="210.82" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="OUT7"/>
-<label x="210.82" y="91.44" size="1.27" layer="95" xref="yes"/>
-</segment>
 <segment>
 <wire x1="99.06" y1="91.44" x2="104.14" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="91.44" x2="106.68" y2="91.44" width="0.1524" layer="91"/>
@@ -19235,13 +19248,13 @@ Standard 3.3V and 5V 150mA LDO voltage regulator in SOT-23 layout. Micrel part M
 <pinref part="R10" gate="G$1" pin="1"/>
 <label x="106.68" y="91.44" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<wire x1="218.44" y1="106.68" x2="220.98" y2="106.68" width="0.1524" layer="91"/>
+<label x="220.98" y="106.68" size="1.27" layer="95" xref="yes"/>
+<pinref part="U3" gate="G$1" pin="OUT7"/>
+</segment>
 </net>
 <net name="OUT8" class="0">
-<segment>
-<wire x1="208.28" y1="88.9" x2="210.82" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="OUT8"/>
-<label x="210.82" y="88.9" size="1.27" layer="95" xref="yes"/>
-</segment>
 <segment>
 <wire x1="12.7" y1="53.34" x2="17.78" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="53.34" x2="20.32" y2="53.34" width="0.1524" layer="91"/>
@@ -19251,13 +19264,13 @@ Standard 3.3V and 5V 150mA LDO voltage regulator in SOT-23 layout. Micrel part M
 <pinref part="R11" gate="G$1" pin="1"/>
 <label x="20.32" y="53.34" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<wire x1="218.44" y1="104.14" x2="220.98" y2="104.14" width="0.1524" layer="91"/>
+<label x="220.98" y="104.14" size="1.27" layer="95" xref="yes"/>
+<pinref part="U3" gate="G$1" pin="OUT8"/>
+</segment>
 </net>
 <net name="OUT9" class="0">
-<segment>
-<wire x1="208.28" y1="86.36" x2="210.82" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="OUT9"/>
-<label x="210.82" y="86.36" size="1.27" layer="95" xref="yes"/>
-</segment>
 <segment>
 <wire x1="43.18" y1="53.34" x2="48.26" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="53.34" x2="50.8" y2="53.34" width="0.1524" layer="91"/>
@@ -19267,13 +19280,13 @@ Standard 3.3V and 5V 150mA LDO voltage regulator in SOT-23 layout. Micrel part M
 <pinref part="R12" gate="G$1" pin="1"/>
 <label x="50.8" y="53.34" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<wire x1="218.44" y1="101.6" x2="220.98" y2="101.6" width="0.1524" layer="91"/>
+<label x="220.98" y="101.6" size="1.27" layer="95" xref="yes"/>
+<pinref part="U3" gate="G$1" pin="OUT9"/>
+</segment>
 </net>
 <net name="OUT10" class="0">
-<segment>
-<wire x1="208.28" y1="83.82" x2="210.82" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="OUT10"/>
-<label x="210.82" y="83.82" size="1.27" layer="95" xref="yes"/>
-</segment>
 <segment>
 <wire x1="71.12" y1="53.34" x2="76.2" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="53.34" x2="78.74" y2="53.34" width="0.1524" layer="91"/>
@@ -19283,13 +19296,13 @@ Standard 3.3V and 5V 150mA LDO voltage regulator in SOT-23 layout. Micrel part M
 <pinref part="R13" gate="G$1" pin="1"/>
 <label x="78.74" y="53.34" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<wire x1="218.44" y1="99.06" x2="220.98" y2="99.06" width="0.1524" layer="91"/>
+<label x="220.98" y="99.06" size="1.27" layer="95" xref="yes"/>
+<pinref part="U3" gate="G$1" pin="OUT10"/>
+</segment>
 </net>
 <net name="OUT11" class="0">
-<segment>
-<wire x1="208.28" y1="81.28" x2="210.82" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="OUT11"/>
-<label x="210.82" y="81.28" size="1.27" layer="95" xref="yes"/>
-</segment>
 <segment>
 <wire x1="99.06" y1="53.34" x2="104.14" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="53.34" x2="106.68" y2="53.34" width="0.1524" layer="91"/>
@@ -19299,13 +19312,13 @@ Standard 3.3V and 5V 150mA LDO voltage regulator in SOT-23 layout. Micrel part M
 <pinref part="R14" gate="G$1" pin="1"/>
 <label x="106.68" y="53.34" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<wire x1="218.44" y1="96.52" x2="220.98" y2="96.52" width="0.1524" layer="91"/>
+<label x="220.98" y="96.52" size="1.27" layer="95" xref="yes"/>
+<pinref part="U3" gate="G$1" pin="OUT11"/>
+</segment>
 </net>
 <net name="OUT12" class="0">
-<segment>
-<wire x1="208.28" y1="78.74" x2="210.82" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="OUT12"/>
-<label x="210.82" y="78.74" size="1.27" layer="95" xref="yes"/>
-</segment>
 <segment>
 <wire x1="12.7" y1="15.24" x2="17.78" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="15.24" x2="20.32" y2="15.24" width="0.1524" layer="91"/>
@@ -19315,13 +19328,13 @@ Standard 3.3V and 5V 150mA LDO voltage regulator in SOT-23 layout. Micrel part M
 <pinref part="R15" gate="G$1" pin="1"/>
 <label x="20.32" y="15.24" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<wire x1="218.44" y1="93.98" x2="220.98" y2="93.98" width="0.1524" layer="91"/>
+<label x="220.98" y="93.98" size="1.27" layer="95" xref="yes"/>
+<pinref part="U3" gate="G$1" pin="OUT12"/>
+</segment>
 </net>
 <net name="OUT13" class="0">
-<segment>
-<wire x1="208.28" y1="76.2" x2="210.82" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="OUT13"/>
-<label x="210.82" y="76.2" size="1.27" layer="95" xref="yes"/>
-</segment>
 <segment>
 <wire x1="43.18" y1="15.24" x2="48.26" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="15.24" x2="50.8" y2="15.24" width="0.1524" layer="91"/>
@@ -19331,13 +19344,13 @@ Standard 3.3V and 5V 150mA LDO voltage regulator in SOT-23 layout. Micrel part M
 <pinref part="R16" gate="G$1" pin="1"/>
 <label x="50.8" y="15.24" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<wire x1="218.44" y1="91.44" x2="220.98" y2="91.44" width="0.1524" layer="91"/>
+<label x="220.98" y="91.44" size="1.27" layer="95" xref="yes"/>
+<pinref part="U3" gate="G$1" pin="OUT13"/>
+</segment>
 </net>
 <net name="OUT14" class="0">
-<segment>
-<wire x1="208.28" y1="73.66" x2="210.82" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="OUT14"/>
-<label x="210.82" y="73.66" size="1.27" layer="95" xref="yes"/>
-</segment>
 <segment>
 <wire x1="71.12" y1="15.24" x2="76.2" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="15.24" x2="78.74" y2="15.24" width="0.1524" layer="91"/>
@@ -19347,13 +19360,13 @@ Standard 3.3V and 5V 150mA LDO voltage regulator in SOT-23 layout. Micrel part M
 <pinref part="R17" gate="G$1" pin="1"/>
 <label x="78.74" y="15.24" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<wire x1="218.44" y1="88.9" x2="220.98" y2="88.9" width="0.1524" layer="91"/>
+<label x="220.98" y="88.9" size="1.27" layer="95" xref="yes"/>
+<pinref part="U3" gate="G$1" pin="OUT14"/>
+</segment>
 </net>
 <net name="OUT15" class="0">
-<segment>
-<wire x1="208.28" y1="71.12" x2="210.82" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="OUT15"/>
-<label x="210.82" y="71.12" size="1.27" layer="95" xref="yes"/>
-</segment>
 <segment>
 <wire x1="99.06" y1="15.24" x2="104.14" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="15.24" x2="106.68" y2="15.24" width="0.1524" layer="91"/>
@@ -19363,13 +19376,13 @@ Standard 3.3V and 5V 150mA LDO voltage regulator in SOT-23 layout. Micrel part M
 <pinref part="R18" gate="G$1" pin="1"/>
 <label x="106.68" y="15.24" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<wire x1="218.44" y1="86.36" x2="220.98" y2="86.36" width="0.1524" layer="91"/>
+<label x="220.98" y="86.36" size="1.27" layer="95" xref="yes"/>
+<pinref part="U3" gate="G$1" pin="OUT15"/>
+</segment>
 </net>
 <net name="VPRG" class="0">
-<segment>
-<wire x1="182.88" y1="81.28" x2="180.34" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="VPRG"/>
-<label x="180.34" y="81.28" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
 <segment>
 <wire x1="25.4" y1="175.26" x2="27.94" y2="175.26" width="0.1524" layer="91"/>
 <pinref part="SJ2" gate="1" pin="2"/>
@@ -19385,6 +19398,11 @@ Standard 3.3V and 5V 150mA LDO voltage regulator in SOT-23 layout. Micrel part M
 <pinref part="JP20" gate="G$1" pin="1"/>
 <label x="137.16" y="12.7" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<wire x1="193.04" y1="96.52" x2="190.5" y2="96.52" width="0.1524" layer="91"/>
+<label x="190.5" y="96.52" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U3" gate="G$1" pin="VPRG"/>
+</segment>
 </net>
 <net name="5V" class="0">
 <segment>
@@ -19397,21 +19415,33 @@ Standard 3.3V and 5V 150mA LDO voltage regulator in SOT-23 layout. Micrel part M
 <pinref part="C1" gate="G$1" pin="+"/>
 </segment>
 <segment>
-<wire x1="182.88" y1="109.22" x2="180.34" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="180.34" y1="109.22" x2="180.34" y2="119.38" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="VCC"/>
-<pinref part="U$2" gate="G$1" pin="5V"/>
-</segment>
-<segment>
-<wire x1="182.88" y1="86.36" x2="167.64" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="167.64" y1="86.36" x2="167.64" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="DCPRG"/>
-<pinref part="U$3" gate="G$1" pin="5V"/>
-</segment>
-<segment>
 <wire x1="129.54" y1="137.16" x2="129.54" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="C3" gate="G$1" pin="1"/>
 <pinref part="U$4" gate="G$1" pin="5V"/>
+</segment>
+<segment>
+<wire x1="193.04" y1="124.46" x2="190.5" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="124.46" x2="190.5" y2="134.62" width="0.1524" layer="91"/>
+<pinref part="U$5" gate="G$1" pin="5V"/>
+<pinref part="U3" gate="G$1" pin="VCC"/>
+</segment>
+<segment>
+<wire x1="193.04" y1="101.6" x2="177.8" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="101.6" x2="177.8" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="U$6" gate="G$1" pin="5V"/>
+<pinref part="U3" gate="G$1" pin="DCPRG"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<wire x1="193.04" y1="93.98" x2="185.42" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="93.98" x2="185.42" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="91.44" x2="177.8" y2="93.98" width="0.1524" layer="91" style="longdash"/>
+<wire x1="177.8" y1="93.98" x2="185.42" y2="93.98" width="0.1524" layer="91" style="longdash"/>
+<junction x="185.42" y="93.98"/>
+<pinref part="R19" gate="G$1" pin="2"/>
+<pinref part="R20" gate="G$1" pin="2"/>
+<pinref part="U3" gate="G$1" pin="IREF"/>
 </segment>
 </net>
 </nets>
