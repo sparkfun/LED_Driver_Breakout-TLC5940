@@ -64,6 +64,8 @@
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
 <layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -97,6 +99,7 @@
 <layer number="126" name="_bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="127" name="_tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="128" name="_bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="129" name="Mask" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="131" name="tAdjust" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="132" name="bAdjust" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
@@ -132,6 +135,13 @@
 <layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
 <layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
 <layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
+<layer number="225" name="225bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="226" name="226bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="227" name="227bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="228" name="228bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="229" name="229bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="230" name="230bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="231" name="231bmp" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="248" name="Housing" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="249" name="Edge" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
@@ -1565,53 +1575,6 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 </device>
 </devices>
 </deviceset>
-<deviceset name="FIDUCIAL" prefix="JP">
-<description>&lt;b&gt;Fiducial Alignment Points&lt;/b&gt;
-Various fiducial points for machine vision alignment.</description>
-<gates>
-<gate name="G$1" symbol="FIDUCIAL" x="0" y="0"/>
-</gates>
-<devices>
-<device name="1.5X3" package="FIDUCIAL-1.5X3">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="1X2" package="FIDUCIAL-1X2">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="1X2.5" package="FIDUCIAL-1X2.5">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="abes">
-<packages>
-<package name="FIDUCIAL-1.5X3">
-<circle x="0" y="0" radius="0.9055" width="1.27" layer="29"/>
-<smd name="1" x="0" y="0" dx="1.5" dy="1.5" layer="1" roundness="100" cream="no"/>
-</package>
-<package name="FIDUCIAL-1X2">
-<smd name="1" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" cream="no"/>
-</package>
-<package name="FIDUCIAL-1X2.5">
-<smd name="1" x="0" y="0" dx="0.635" dy="0.635" layer="1" roundness="100" cream="no"/>
-</package>
-</packages>
-<symbols>
-<symbol name="FIDUCIAL">
-<wire x1="-0.762" y1="0.762" x2="0.762" y2="-0.762" width="0.254" layer="94"/>
-<wire x1="0.762" y1="0.762" x2="-0.762" y2="-0.762" width="0.254" layer="94"/>
-<circle x="0" y="0" radius="1.27" width="0.254" layer="94"/>
-</symbol>
-</symbols>
-<devicesets>
 <deviceset name="FIDUCIAL" prefix="JP">
 <description>&lt;b&gt;Fiducial Alignment Points&lt;/b&gt;
 Various fiducial points for machine vision alignment.</description>
@@ -18138,7 +18101,6 @@ IC needs to have legs bent before insertion.</description>
 <wire x1="2.5" y1="-2.1" x2="2.5" y2="-2.5" width="0.127" layer="21"/>
 <wire x1="2.5" y1="-2.5" x2="2.1" y2="-2.5" width="0.127" layer="21"/>
 <wire x1="-2.5" y1="-2.1" x2="-2.1" y2="-2.5" width="0.127" layer="21"/>
-<circle x="-1.8" y="-1.8" radius="0.1" width="0.127" layer="21"/>
 <smd name="1" x="-1.75" y="-2.5" dx="0.8" dy="0.2846" layer="1" rot="R90"/>
 <smd name="2" x="-1.25" y="-2.5" dx="0.8" dy="0.2846" layer="1" rot="R90"/>
 <smd name="3" x="-0.75" y="-2.5" dx="0.8" dy="0.2846" layer="1" rot="R90"/>
@@ -18210,6 +18172,7 @@ IC needs to have legs bent before insertion.</description>
 <rectangle x1="0.15" y1="0.15" x2="1.45" y2="1.45" layer="31" rot="R270"/>
 <rectangle x1="-1.45" y1="-1.45" x2="-0.15" y2="-0.15" layer="31" rot="R90"/>
 <rectangle x1="0.15" y1="-1.45" x2="1.45" y2="-0.15" layer="31" rot="R180"/>
+<circle x="-2.71790625" y="-2.68384375" radius="0.1" width="0.127" layer="21"/>
 </package>
 <package name="TSSOP28-GROUNDPAD">
 <wire x1="-2.2762" y1="-4.8854" x2="2.2762" y2="-4.8854" width="0.127" layer="51"/>
@@ -18518,7 +18481,6 @@ IC needs to have legs bent before insertion.</description>
 <part name="R17" library="SparkFun-Resistors" deviceset="2.2KOHM-1/10W-1%(0603)" device="" value="2.2k"/>
 <part name="R18" library="SparkFun-Resistors" deviceset="2.2KOHM-1/10W-1%(0603)" device="" value="2.2k"/>
 <part name="JP26" library="SparkFun" deviceset="FIDUCIAL" device="1X2"/>
-<part name="JP27" library="abes" deviceset="FIDUCIAL" device="1X2.5"/>
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="S"/>
 <part name="LOGO2" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_NAME_FLAME" device=".2_INCH" value="SFE_LOGO_NAME_FLAME.2_INCH"/>
 <part name="U3" library="SparkFun-DigitalIC" deviceset="TLC5940" device="-RHB"/>
@@ -18532,6 +18494,7 @@ IC needs to have legs bent before insertion.</description>
 <part name="P+1" library="SparkFun" deviceset="VCC" device=""/>
 <part name="GND2" library="SparkFun" deviceset="GND" device=""/>
 <part name="P+2" library="SparkFun" deviceset="VCC" device=""/>
+<part name="JP21" library="SparkFun" deviceset="FIDUCIAL" device="1X2"/>
 </parts>
 <sheets>
 <sheet>
@@ -18641,7 +18604,6 @@ IC needs to have legs bent before insertion.</description>
 <instance part="R17" gate="G$1" x="76.2" y="22.86" rot="R90"/>
 <instance part="R18" gate="G$1" x="104.14" y="22.86" rot="R90"/>
 <instance part="JP26" gate="G$1" x="241.3" y="25.4"/>
-<instance part="JP27" gate="G$1" x="246.38" y="25.4"/>
 <instance part="LOGO1" gate="G$1" x="236.22" y="45.72"/>
 <instance part="LOGO2" gate="G$1" x="162.56" y="35.56"/>
 <instance part="U3" gate="G$1" x="205.74" y="106.68"/>
@@ -18655,6 +18617,7 @@ IC needs to have legs bent before insertion.</description>
 <instance part="P+1" gate="1" x="124.46" y="76.2"/>
 <instance part="GND2" gate="1" x="124.46" y="38.1"/>
 <instance part="P+2" gate="1" x="124.46" y="48.26"/>
+<instance part="JP21" gate="G$1" x="246.38" y="25.4"/>
 </instances>
 <busses>
 </busses>
