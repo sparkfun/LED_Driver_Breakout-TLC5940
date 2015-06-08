@@ -1,43 +1,39 @@
-SparkFun TLC5940 Arduino Library
+SparkFun LED Driver Breakout -TLC5940
 ========================================
 
-The TLC5940 gives the user 16 channel PWM control and can be daisy chained over the serial interface. 
-This library works with the SparkFun LED Driver Breakout and the SparkFun PWM Shield.
+![SparkFun LED Driver Breakout -TLC5940](https://cdn.sparkfun.com//assets/parts/5/2/7/6/10616-01a.jpg)
 
-This library is forked from the original library by Alex Leone, available [here](https://code.google.com/p/tlc5940arduino/). 
+[*SparkFun LED Driver Breakout -TLC5940(BOB-10616)*](https://www.sparkfun.com/products/10616)
+
+ The TLC5940 is a 16 channel PWM unit with 12 bit duty cycle control (0-4095), 6 bit current limit control (0-63), and a daisy chainable serial interface. 
+ This breakout board is a good way to take full advantage of this useful IC. 
+ All 16 PWM channels are broken out to standard 0.1" headers, which run alongside convenient voltage and ground rails.
 
 Repository Contents
 -------------------
 
-* **/examples** - Example sketches for the library (.ino). Run these from the Arduino IDE. 
-* **/extras** - Additional documentation for the user. These files are ignored by the IDE. 
-* **/src** - Source files for the library (.cpp, .h).
-* **keywords.txt** - Keywords from this library that will be highlighted in the Arduino IDE. 
-* **library.properties** - General library properties for the Arduino package manager. 
+* **/Firmware** - Example code. 
+* **/Hardware** - Eagle design files (.brd, .sch)
+* **/Libraries** - Libraries for use with the TLC5940.
+* **/Production** - Production panel files (.brd)
 
 Documentation
 --------------
-
-* **[Installing an Arduino Library Guide](https://learn.sparkfun.com/tutorials/installing-an-arduino-library)** - Basic information on how to install an Arduino library.
-* **[SparkFun LED Driver Breakout- TLC5940](https://github.com/sparkfun/LED_Driver_Breakout-TLC5940)** - Main repository (including hardware files) for the LED Driver Breakout.
-* **[SparkFun PWM Shield](https://github.com/sparkfun/PWM_Shield)** - Main repository (including hardware files) for the PWM Shield.
-
-Products that use this Library 
----------------------------------
-
-* [BOB-10616](https://www.sparkfun.com/products/10616)- SparkFun LED Driver Breakout-TLC5940
-* [DEV-10615](https://www.sparkfun.com/products/10615)- SparkFun PWM Shield
+* **[Library](https://github.com/sparkfun/SparkFun_TLC5940_Arduino_Library)** - Arduino Library for the TLC5940.
+* **[SparkFun Fritzing repo](https://github.com/sparkfun/Fritzing_Parts)** - Fritzing diagrams for SparkFun products.
+* **[SparkFun 3D Model repo](https://github.com/sparkfun/3D_Models)** - 3D models of SparkFun products. 
 
 
 License Information
 -------------------
-
 This product is _**open source**_! 
 
-The code is released under GPL. 
+The **hardware** is released under [Creative Commons ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/).
+
+Please use, reuse, and modify these files as you see fit. Please maintain attribution to SparkFun Electronics and release anything derivative under the same license.
 
 Distributed as-is; no warranty is given.
 
 - Your friends at SparkFun.
 
-_<COLLABORATION CREDIT>_
+
