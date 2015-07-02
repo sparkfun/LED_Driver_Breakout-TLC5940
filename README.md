@@ -23,6 +23,12 @@ Documentation
 * **[SparkFun Fritzing repo](https://github.com/sparkfun/Fritzing_Parts)** - Fritzing diagrams for SparkFun products.
 * **[SparkFun 3D Model repo](https://github.com/sparkfun/3D_Models)** - 3D models of SparkFun products. 
 
+Version History
+---------------
+
+* [v1.3](https://github.com/sparkfun/LED_Driver_Breakout-TLC5940/tree/V_H1.3_L1.0.1) - Hardware version 1.3. Currently live. 
+* [v1.2](https://github.com/sparkfun/LED_Driver_Breakout-TLC5940/tree/V_H.1_L1.0.1) - Hardware version 1.2
+
 
 License Information
 -------------------
